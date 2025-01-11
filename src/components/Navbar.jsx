@@ -1,11 +1,21 @@
 // modulos
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 
 export const Navbar = ({ navOpen }) => {
 
     const lastActiveLink = useRef();
     const activeBox = useRef();
+
+    const initActiveBox = () => {
+        activeBox.current.style.top = lastActiveLink.current.offsetTop + 'px'
+        activeBox.current.style.left = lastActiveLink.current.offsetLeft+ 'px'
+        activeBox.current.style.width = lastActiveLink.current.offsetWidth + 'px'
+        activeBox.current.style.height = lastActiveLink.current.offsetHeight + 'px'
+    }
+
+    useEffect(initActiveBox,[]);
+
 
     const navItems = [
         {

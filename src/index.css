@@ -48,7 +48,7 @@ body{
   @apply text-zinc-900 duration-500
 }
 
-.active-box{
+.navbar .active-box{
   @apply absolute  bg-zinc-50 rounded-lg -z-10 
   transition-[top,left]  duration-500
 }
