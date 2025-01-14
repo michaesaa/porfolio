@@ -35,10 +35,11 @@ export const Hero = () => {
                             Available for work
                         </div>
 
-                        <h2 className="">
+                        <h2 className="headLine-1 max-w-[15ch] sm:max-w-[25ch]
+                        lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
                             Building Scalable Modern Websites for the Future
                         </h2>
-                        <div className="">
+                        <div className="flex items-center gap-4">
                             ButtonPrimary
 
                             ButtonOutline
@@ -46,8 +47,10 @@ export const Hero = () => {
                     </div>
                 </div>
 
-                <div className="">
-                    <figure className="">
+                <div className="hidden lg:block">
+                    <figure className="w-full max-w-[480px]
+                    ml-auto bg-grandient-to-t from-sky-400 via-25%
+                    via-asy-40-40 to-65% rounded-[60px] overflow-hidden">
                         <img
                             src="/images/hero-banner.png"
                             width={200}
