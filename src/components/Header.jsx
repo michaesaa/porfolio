@@ -13,7 +13,7 @@ export const Header = () => {
 
 
     // etiqueta principal
-    <header className="top-0 left-0 z-40 fixed flex items-center bg-gradient-to-b from-zinc-900 to-zinc-900/0 w-full h-20">
+    <header className="  bg-blue-500 p-1 top-0 left-0 z-40 fixed flex items-center bg-gradient-to-b from-zinc-900 to-zinc-900/0 w-full h-20">
       {/* div principal */}
       <div className="flex justify-between items-center md:grid md:grid-cols-[1fr,3fr,1fr] mx-auto px-4 md:px-6 w-full max-w-screen-2xl">
         {/* logo */}

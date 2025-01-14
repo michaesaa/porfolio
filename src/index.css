@@ -12,19 +12,30 @@
   font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
+.container{
+ @apply  px-4 mx-auto lg:px-8 xl:max-w-6xl;
+}
 
+.container-t{
+  text-align: center
+}
 
+.img-box{
+  @apply bg-zinc-700 overflow-hidden;
+}
+
+.img-cover{
+  @apply w-full h-full object-cover;
+}
 
 html {
     scroll-behavior: smooth;
 }
 
-.ee{
-  @apply pt-28 lg:pt-36
-}
+
 
 body{
-  @apply bg-zinc-400 text-zinc-50
+  @apply bg-gray-900 text-zinc-50
 }
 
 /* ___________________________________ *\
@@ -81,5 +92,6 @@ body{
 }
 
 .figure{
-  margin-top: 100px;
+  text-align: center ;
+
 }

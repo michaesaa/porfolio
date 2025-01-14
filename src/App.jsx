@@ -16,10 +16,11 @@ export const App = () =>{
     return (
         <>
             <Header />
-            
+            <div className="">
             <main>
                 <Hero />
             </main>
+            </div>
         </>
     )
 }
