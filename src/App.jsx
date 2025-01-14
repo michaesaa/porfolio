@@ -16,6 +16,7 @@ export const App = () =>{
     return (
         <>
             <Header />
+            
             <main>
                 <Hero />
             </main>

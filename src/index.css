@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 /* ___________________________________ *\
 * utilities
 \* ___________________________________ */
@@ -18,8 +19,12 @@ html {
     scroll-behavior: smooth;
 }
 
+.ee{
+  @apply pt-28 lg:pt-36
+}
+
 body{
-  @apply bg-zinc-900 text-zinc-50
+  @apply bg-zinc-400 text-zinc-50
 }
 
 /* ___________________________________ *\
@@ -73,4 +78,8 @@ body{
 
 .btn-secondary{
  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
+}
+
+.figure{
+  margin-top: 100px;
 }

@@ -2,19 +2,15 @@
  * @copyright 2025 MichaelSaa_
  * @license Apache-2.0              
  */
-
-import React from "react";
-
 export const Hero = () => {
     return (
         <senction
             id="home"
-            className="">
+            className="hero py-50 mt-16  italic">
 
             <div className="">
-                <div>
                    <div className="">
-                        <figure className="">
+                        <figure className="figure">
                             <img
                                 src="/images/avatar-1.png"
                                 width={40}
@@ -30,7 +26,7 @@ export const Hero = () => {
                             </span>
                             Available for work
                         </div>
-                    </div>
+                   
                     <h2 className="">
                         Building Scalable Modern Websites for the Future
                     </h2>
@@ -46,9 +42,10 @@ export const Hero = () => {
                     <figure className="">
                         <img
                          src="/images/hero-banner.png"
-                         width={400} 
-                         alt=""
-                         className=""
+                         width={656} 
+                         height={800}
+                         alt="michael saa"
+                         className="w-full"
                           />
                     </figure>
                 </div>
