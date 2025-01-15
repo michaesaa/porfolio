@@ -2,6 +2,11 @@
  * @copyright 2025 MichaelSaa_
  * @license Apache-2.0              
  */
+
+// Components
+import { Button } from "./Button"
+import { ButtonOutline } from "./Button"
+
 export const Hero = () => {
     return (
         <senction
@@ -40,9 +45,15 @@ export const Hero = () => {
                             Building Scalable Modern Websites for the Future
                         </h2>
                         <div className="flex items-center gap-4">
-                            ButtonPrimary
-
-                            ButtonOutline
+                            <Button 
+                            label="Dowloand CV"
+                            icon="download"
+                            />
+                            <ButtonOutline 
+                            label="Scroll down"
+                            href="#about"
+                            icon="arrow-downward"
+                            />
                         </div>
                     </div>
                 </div>
