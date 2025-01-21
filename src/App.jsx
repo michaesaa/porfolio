@@ -13,6 +13,7 @@ import { Hero } from "./components/Hero"
 import { About } from "./components/Aboutt"
 import { Skill } from "./components/Skill"
 import { Work } from "./components/Work"
+import { Review } from "./components/Review"
 
 export const App = () =>{
 
@@ -26,6 +27,7 @@ export const App = () =>{
                 <About />
                 <Skill />
                 <Work />
+                <Review />
             </main>
             </div>
         </>
