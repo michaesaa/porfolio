@@ -55,7 +55,9 @@ export const Skill = () => {
                 <p className="">
                     Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
                 </p>
-                <div className="">
+                <div className="grid gap-3 grid-cols-[
+                repeat(uato-fill,minmax(250px,_1fr))]
+                ">
                     {
 
 
