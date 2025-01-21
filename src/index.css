@@ -14,10 +14,13 @@
 }
 
 
-.headLine-1{
+.headLine-1,
+.headLine-2{
   @apply text-5xl leading-tight font-semibold
   lg:text-[55px]
 }
+
+
 
 
 
