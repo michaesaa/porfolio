@@ -25,16 +25,7 @@ const skillItem = [
         label: 'NodeJS',
         desc: 'Web Server'
     },
-    {
-        imgSrc: '/images/expressjs.svg',
-        label: 'ExpressJS',
-        desc: 'Node Framework'
-    },
-    {
-        imgSrc: '/images/mongodb.svg',
-        label: 'MongoDB',
-        desc: 'Database'
-    },
+  
     {
         imgSrc: '/images/react.svg',
         label: 'React',
