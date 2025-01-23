@@ -20,26 +20,26 @@ export const ReviewCard = ({
 
     return (
 
-        <div className='bg-zinc-800 p-5 rounded-xl'>
+        <div className='bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:main-w-[420px]'>
 
-            <div className="">
+            <div className="flex items-center gap-1 mb-3">
                 {ratings.map(({ icon, style }, key) => (
                     <span
                         key={key}
                         style={style}
-                        className='material-symbols-rounded'
+                        className='material-symbols-rounded text-yellow-300 text-[18px]'
                     >
                         {icon}
                     </span>
                 ))}
             </div>
 
-            <p>
+            <p className='text-zinc-400 mb-8'>
                 {content}
             </p>
 
-            <div className="">
-                <figure className="">
+            <div className="flex items-center gap-2 mt-auto">
+                <figure className="img-box rounded-lg">
                     <img
                         src={imgSrc}
                         alt={name}
@@ -53,7 +53,7 @@ export const ReviewCard = ({
                     <p>
                         {name}
                     </p>
-                    <p>
+                    <p className='text-xs text-zinc-400 tracking-winder'>
                         {company}
                     </p>
                 </div>
